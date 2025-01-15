@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header, .footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 10px;
+    min-height: calc(100vh - 4rem);
+}
+
+.menu {
+    background-color: #555;
+    color: white;
+    padding: 1rem;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.menu.gauchedroite {
+    text-align: center;
+    border-bottom: 1px solid black;
+
+}
+
+.contenu {
+    padding: 1rem;
+}
+
+.contenu h1 {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
